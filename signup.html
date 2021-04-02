@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<h2tml lang="en">
+<head>
+	<title>Get In</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+    <link rel="icon" href="images/favicon1.png" type="image/x-icon"/>
+<!--===============================================================================================-->
+    <link rel="shortcut icon" href="images/favicon1.png" type="image/x-icon"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!--===============================================================================================-->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap" rel="stylesheet">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<div class="bg-contact3" style="background-image: url('images/hero-bg.jpg');">
+		<header id="header" class="fixed-top ">
+	    	<div class="container-fluid d-flex align-items-center d-flex justify-content-between">
+				<div class="logoset">
+					<div class="logo"> 
+						<a href="index.html"> 
+							<img src="images/favicon.png"/> 
+						</a>
+					</div>
+				</div>
+
+                <nav class="navbar navbar-expand-md">
+			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			             <span class="navbar-toggler-icon"></span>
+			        </button>
+
+			        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+			            <ul class="navbar-nav">
+				            <li class="nav-item">
+				          	    <a href="index.html" class="get-started-btn scrollto ">Home</a>
+				            </li>
+							<li class="nav-item">
+								<a href="#about" class="get-started-btn scrollto ">Skip</a>
+							  </li>
+			            </ul>
+			        </div>
+		        </nav>
+		    </div> 
+	    </header>
+		<div class="container-contact3">
+			<div class="wrap-contact3">
+				<form class="contact3-form validate-form">
+					<span class="contact3-form-title">
+						Registration
+					</span>
+
+					<div class="wrap-contact3-form-radio">
+						<div class="contact3-form-radio">
+							<input class="input-radio3" id="radio2" type="radio" name="choice" value="get-quote">
+							<label class="label-radio3" for="radio2">
+								Sign Up
+							</label>
+						</div>
+
+						<div class="contact3-form-radio m-r-42">
+							<input class="input-radio3" id="radio1" type="radio" name="choice" value="say-hi" checked="checked">
+							<label class="label-radio3" for="radio1">
+								Log In
+							</label>
+						</div>
+					</div>
+
+					<div class="wrap-input3 input3-select" data-validate="Name is required">
+						<input class="input3" type="text" name="name" placeholder="Name">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 input3-select" data-validate="Last name is required">
+						<input class="input3" type="text" name="name" placeholder="Last name">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+						<input class="input3" type="text" name="email" placeholder="Email">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 validate-input" data-validate="">
+						<input class="input3" type="password" name="password" placeholder="Password">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="wrap-input3 input3-select" data-validate="">
+						<input class="input3" type="password" name="confirmpassword" placeholder="Confirm password">
+						<span class="focus-input3"></span>
+					</div>
+
+					<div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
+							Get In
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+<!--===============================================================================================-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
